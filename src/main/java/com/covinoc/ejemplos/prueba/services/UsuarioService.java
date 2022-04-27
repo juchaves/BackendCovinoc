@@ -10,11 +10,13 @@ import com.covinoc.ejemplos.prueba.repositories.UsuarioRepository;
 import java.util.ArrayList;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author jmcp1
  */
+@Service
 public class UsuarioService {
     @Autowired
     UsuarioRepository usuarioRepository;
